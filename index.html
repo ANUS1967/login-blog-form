@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login/Signup Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <h2 id="formTitle">Sign Up</h2>
+
+      <div class="input-group">
+        <input type="text" id="name" placeholder="Enter your name" />
+        <input type="email" id="email" placeholder="Enter your email" />
+        <input type="password" id="password" placeholder="Enter your password" />
+      </div>
+
+      <div class="buttons">
+        <p class="forgot" id="forgotBtn">Forgot Password?</p>
+        <button class="btn" id="submitBtn">Sign Up</button>
+        <p class="toggle">Already have an account? <span id="toggleForm">Login</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <p id="popupMessage">Popup Message</p>
+      <button id="closePopup">Close</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
